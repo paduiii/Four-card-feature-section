@@ -1,0 +1,160 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(234, 12%, 34%);
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.First_line {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-weight: 200;
+}
+
+.Second_line {
+  margin-top: 0px;
+  font-weight: 600;
+}
+
+.ThirdAndFourth_line {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(229, 6%, 66%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+} */
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 4px 8px 8px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 340px;
+  height: 220px;
+  text-align: left;
+}
+
+.supervisor { 
+  border-top: 4px solid hsl(180, 62%, 55%);
+  margin-top: 0px;
+}
+
+.supervisor p {
+  color: hsl(229, 6%, 66%);
+}
+
+
+.team-builder { 
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 0px;
+}
+
+.team-builder p {
+  color: hsl(229, 6%, 66%);
+}
+
+.karma { 
+  border-top: 4px solid hsl(34, 97%, 64%);
+  margin-top: 40px;
+}
+
+.karma p {
+  color: hsl(229, 6%, 66%);
+}
+
+.calculator { 
+  border-top: 4px solid hsl(212, 86%, 64%);
+  margin-top: 0px;
+}
+
+.calculator p {
+  color: hsl(229, 6%, 66%);
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.card_logo {
+  position: relative;
+  left: 270px;
+  top: 40px;
+}
+
+@media (max-width: 600px) {
+
+  .First_line {
+    font-size: 25px;
+  }
+
+  .Second_line {
+    font-size: 25px;
+  }
+
+  .ThirdAndFourth_line {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .card_logo {
+    position: relative;
+    left: 230px;
+    top: 40px;
+  }
+
+  .supervisor p {
+    font-size: 15.5px;
+  }
+
+  .team-builder p {
+    font-size: 15.5px;
+  }
+
+  .karma p {
+    font-size: 15.5px;
+  }
+
+  .calculator p {
+    font-size: 15.5px;
+  }
+}
