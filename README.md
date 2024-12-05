@@ -9,7 +9,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### Links
 
 - Solution URL: https://github.com/paduiii/Four-card-feature-section
-- Live Site URL: https://ns-frontend-mentor-Fourcardfeature.netlify.app/
+- Live Site URL: https://ns-frontend-mentor-fourcardfeature.netlify.app/
 
 ### Built with
 
